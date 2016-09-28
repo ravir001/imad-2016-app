@@ -10,17 +10,17 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-    rs.send('Article One Requested');
+    res.send('Article One Requested');
 //  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/article-two', function (req, res) {
-    rs.send('Article Two Requested');
+    res.send('Article Two Requested');
 //  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
 app.get('/article-three', function (req, res) {
-    rs.send('Article Three Requested');
+    res.send('Article Three Requested');
 //  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
